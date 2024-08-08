@@ -26,10 +26,10 @@ class CarControllerParams:
     self.STEER_STEP = 1  # 100 Hz
 
     if CP.carFingerprint in CANFD_CAR:
-      self.STEER_MAX = 409
-      self.STEER_DRIVER_ALLOWANCE = 400
+      self.STEER_MAX = 384
+      self.STEER_DRIVER_ALLOWANCE = 384
       self.STEER_DRIVER_MULTIPLIER = 2
-      self.STEER_THRESHOLD = 400
+      self.STEER_THRESHOLD = 250
       self.STEER_DELTA_UP = 2
       self.STEER_DELTA_DOWN = 3
 
